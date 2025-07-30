@@ -1,5 +1,32 @@
-# Getting started
+# 🐳 Docker Node Todo App
 
-This repository is a sample application for users following the getting started guide at https://docs.docker.com/get-started/.
+A simple TODO application built with **Node.js** and **MySQL**, containerized using **Docker Compose**.
 
-The application is based on the application from the getting started tutorial at https://github.com/docker/getting-started
+## 📦 Tech Stack
+
+- **Node.js** (Express)
+- **MySQL 8**
+- **Docker & Docker Compose**
+
+## 🚀 Features
+
+- Create and list TODO tasks
+- Connects to MySQL database via Docker network
+- Fully containerized development setup
+
+## 🐋 Getting Started
+
+### Prerequisites
+
+Make sure you have installed:
+
+- [Docker](https://docs.docker.com/get-docker/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+
+### Setup
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/abdo308/docker-node-todo-app.git
+cd docker-node-todo-app
